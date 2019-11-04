@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+
+@page {
+  margin: 1.5in 1in 1in;
+  size: letter portrait;
+}
+
+* {
+  font-family: 'Cormorant Garamond', Georgia, Times, serif;
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+b, strong {
+  font-weight: 700;
+}
+p.print {
+  margin-top: 0;
+  margin-bottom: 56pt;
+}
+/*
+This will unpack any hyperlinks, adding the href value in parenthesis
+to the end of the string:
+
+"Go to <a href='https://google.com'>Google</a>" -> "Go to Google (https://google.com)"
+*/
+/* a[href^="http://"]:after, a[href^="https://"]:after {
+  content: " (" attr(href) ")";
+} */

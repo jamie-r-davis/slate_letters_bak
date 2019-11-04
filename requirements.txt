@@ -1,0 +1,7 @@
+bs4
+cairocffi
+reportlab
+pypdf2
+pysftp
+slate_utils
+weasyprint
